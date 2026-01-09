@@ -1,19 +1,36 @@
 # Food-Delivery-Database-Model
-MySQL database design for a food delivery system, including customers, restaurants, drivers, orders, and order items. Demonstrates relational modelling, normalisation, and operational data flow.
+📌 Project Overview
 
-Database Entities 
-1.Customers
-2.Restaurants
-3.Food_Items
-4.Orders
-5.Order Items
-6.Delivery Partners(Drivers) 
+This project contains a MySQL relational database design for a food delivery application. It models real-world entities and workflows involved in online food ordering and last-mile delivery operations.
 
-Each table is designed to reflect real operational use cases in food delivery and logistics platforms in hyperlocal services.
+🗂 Database Tables
 
-Skills Demonstrated
-1.MySQL Database Design
-2.SQL (DDL & DML concepts)
-3.Entity Relationship Modeling (ERD)
-4.Business & Operations Understanding
-5.Analytical Thinking
+• customers – Stores customer details
+
+• restaurants – Restaurant information
+
+• food_items – Menu items offered by restaurants
+
+• orders – Customer orders and order status
+
+• order_items – Items linked to each order
+
+• drivers – Delivery partner details
+
+🛠️ Tech Stack
+
+• MySQL
+
+• SQL (DDL & DML)
+
+🎯 Key Concepts Covered
+
+• Relational database design
+
+• Primary & foreign keys
+
+• One-to-many relationships
+
+• Order lifecycle modeling
+
+• Data integrity & normalization
