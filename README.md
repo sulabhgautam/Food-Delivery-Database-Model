@@ -1,7 +1,7 @@
 # Food-Delivery-Database-Model
 MySQL database design for a food delivery system, including customers, restaurants, drivers, orders, and order items. Demonstrates relational modelling, normalisation, and operational data flow.
 
-Database Entities
+Database Entities 
 1.Customers
 2.Restaurants
 3.Food_Items
