@@ -7,7 +7,7 @@ Database Entities
 3.Food_Items
 4.Orders
 5.Order Items
-6.Delivery Partners(Drivers)
+6.Delivery Partners(Drivers) 
 
 Each table is designed to reflect real operational use cases in food delivery and logistics platforms in hyperlocal services.
 
