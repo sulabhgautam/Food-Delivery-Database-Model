@@ -1,0 +1,5 @@
+#Top 10 Driver_Id who has delivered the orders
+Sol-select driver_id, count(order_id) as drive from orders
+    group by driver_id
+    order by drive desc
+    limit 10
