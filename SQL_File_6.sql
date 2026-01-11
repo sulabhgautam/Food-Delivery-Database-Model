@@ -1,0 +1,60 @@
+#we are using where clause to find out the number of orders being placed
+select count(*) from restaurants
+where cuisine = 'Italian'
+
+#Top 10 Driver_Id who has delivered the orders
+select driver_id, count(order_id) as drive from orders
+group by driver_id
+order by drive desc
+limit 10;
+
+#Top 10 drivers with maximum revenue
+select driver_id, round(sum(final_price),2) as revenue from orders
+group by driver_id
+order by revenue desc
+limit 10;
+
+#Total revenue monthwise wrt orders placed
+select month(order_date) as monthwise, round(sum(final_price),2) as revenue, count(order_id) as orders
+from orders
+group by monthwise
+order by revenue desc;
+
+#fastest delivery wrt order
+select timediff(delivered_time,order_time) as difference, driver_id  from orders
+order by difference asc;
+
+#longest delivery wrt order
+select timediff(delivered_time,order_time) as difference, driver_id  from orders
+order by difference desc;
+
+#Which food item order maximum time and which restaurant serve it along with cuisine
+select f.item_name, sum(o.quantity) as number_of_orders, r.cuisine,r.restaurant_name from food_items f
+left join orders_items o on f.item_id=o.item_id
+left join restaurants r on r.restaurant_id=f.restaurant_id
+where o.quantity is not null
+group by f.item_name, r.restaurant_name, r.cuisine
+order by number_of_orders desc;
+
+Select sum(final_price) as revenue from orders
+where order_date between '2022-06-15' and '2022-06-30';
+
+
+select * from restaurants
+#Number of restaurants cuisine wise
+select cuisine,count(*) from restaurants
+group by cuisine;
+
+#Which customer orders mostly online
+select c.first_name, count(order_id) as orders, sum(o.total_price) as revenue from customers c
+left join orders o on c.customer_id=o.customer_id
+group by  c.first_name
+order by revenue desc, orders asc
+limit 10;
+
+#
+SELECT 
+       DAYNAME(order_date) AS day_name, count(order_id) as no_of_orders, sum(total_price) as revenue
+FROM orders
+group by day_name
+order by revenue desc;
