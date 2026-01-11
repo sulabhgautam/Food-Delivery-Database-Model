@@ -52,7 +52,7 @@ group by  c.first_name
 order by revenue desc, orders asc
 limit 10;
 
-#
+#It will give an insight of number of orders day wise in which day we get the maximum number of orders
 SELECT 
        DAYNAME(order_date) AS day_name, count(order_id) as no_of_orders, sum(total_price) as revenue
 FROM orders
