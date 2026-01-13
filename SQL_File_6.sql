@@ -36,11 +36,10 @@ where o.quantity is not null
 group by f.item_name, r.restaurant_name, r.cuisine
 order by number_of_orders desc;
 
+#Revenue generate within a given time frame
 Select sum(final_price) as revenue from orders
 where order_date between '2022-06-15' and '2022-06-30';
 
-
-select * from restaurants
 #Number of restaurants cuisine wise
 select cuisine,count(*) from restaurants
 group by cuisine;
