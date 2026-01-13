@@ -65,3 +65,19 @@ SELECT
     RANK() OVER (ORDER BY COUNT(item_id) DESC) AS restaurant_rank
 FROM food_items
 GROUP BY restaurant_id;
+
+#Case Statement:-
+#Find the number of restaurant category wise by using case statement
+select category, count(Category) as Number_Of_Restaurant from
+(
+select food_type,
+case
+when food_type = 'vegetarian' then 'Vegetarian'
+when food_type = 'non-vegetarian' then 'Non-Vegetarian'
+when food_type = 'veg' then 'Vegetarian'
+when food_type = 'non-veg' then 'Non-Vegetarian'
+end as 'Category'
+from food_items
+)t
+group by Category
+
