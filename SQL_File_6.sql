@@ -58,3 +58,11 @@ SELECT
 FROM orders
 group by day_name
 order by revenue desc;
+
+#Rank wise restaurant wrt to total food items (Menu)
+SELECT
+    restaurant_id,
+    COUNT(item_id) AS total_food_items,
+    RANK() OVER (ORDER BY COUNT(item_id) DESC) AS restaurant_rank
+FROM food_items
+GROUP BY restaurant_id;
