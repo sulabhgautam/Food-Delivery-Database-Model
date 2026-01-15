@@ -18,11 +18,14 @@ where order_date > '2022-09-01'
 group by day_name, order_date
 having day_name = 'monday'
 
+#Revenue for the 15 days in a september month
 select sum(final_price) as revenue from orders
 where order_date between '2022-09-01' and '2022-09-15'
 
+#NUmbers of orders placed in the given time and price must be above 35
 select count(order_id) as number_order from orders
 where order_date = '2022-07-01' and final_price < 35
+
 
 select month(order_date) as months,count(order_id),sum(final_price) as revenue, sum(discount) as discount  from orders
 group by months
