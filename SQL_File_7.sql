@@ -1,14 +1,16 @@
+#We used where clause to find the particular driver_id and the price gap.
 select driver_id, count(order_id)  as place_order from orders
 group by driver_id
 order by place_order desc
 limit 10
 where driver_id = 10 and order_date between '2022-07-01' and '2022-07-31' and total_price > 50;
 
+#Number of cuisine restaurant wise
 select * from restaurants
-
 select cuisine, count(restaurant_name) as number from restaurants
 group by cuisine
 
+#Day function used to find the trend in the month.
 SELECT order_date,
        DAYNAME(order_date) AS day_name, count(order_id) as revenue
 FROM orders
