@@ -26,12 +26,10 @@ where order_date between '2022-09-01' and '2022-09-15'
 select count(order_id) as number_order from orders
 where order_date = '2022-07-01' and final_price < 35
 
-
+#Average discount per month wrt revenue
 select month(order_date) as months,count(order_id),sum(final_price) as revenue, sum(discount) as discount  from orders
 group by months
 order by discount desc;
-
-select * from food_items;
 
 #Rank wise restaurant wrt to total food items (Menu)
 SELECT
@@ -41,6 +39,7 @@ SELECT
 FROM food_items
 GROUP BY restaurant_id;
 
+#Order placed by customer more than 1 order
 SELECT customer_id, COUNT(*) AS total_orders
 FROM orders
 GROUP BY customer_id
