@@ -27,7 +27,8 @@ select count(order_id) as number_order from orders
 where order_date = '2022-07-01' and final_price < 35
 
 #Average discount per month wrt revenue
-select month(order_date) as months,count(order_id),sum(final_price) as revenue, sum(discount) as discount  from orders
+select month(order_date) as months,count(order_id),sum(final_price) as revenue,
+       sum(discount) as discount  from orders
 group by months
 order by discount desc;
 
@@ -45,21 +46,19 @@ FROM orders
 GROUP BY customer_id
 HAVING COUNT(*) > 1
 
+#Average rating of a customer.
 select * from drivers;
 select driver_id, avg(rating) as average from drivers
 group by driver_id
 order by average desc;
 
-select * from customers;
-select * from orders;
+#Total Number of orders that the customer is placing.
 select customer_id, count(customer_id) as total_orders
 from orders
 group by customer_id
 order by total_orders desc;
 
-select * from food_items;
-select * from orders_items;
-
+#How much orders has been done from Restaurant 10.
 select f.item_id, f.restaurant_id, f.item_name, sum(o.quantity) as total
 from food_items f
 left join orders_items o on f.item_id = o.item_id
@@ -67,25 +66,15 @@ where restaurant_id = 10
 group by f.item_id, f.restaurant_id, f.item_name
 order by total desc;
 
-select * from restaurants
-select * from food_items;
 Question 7
 #What is the average calories per dish for each cuisine type? Values are close to nearest integer
 select r.cuisine, avg(f.calories) as calories
 from food_items f
 left join restaurants r on r.restaurant_id = f.restaurant_id
-group by r.cuisine
-
-select avg(order_rating) as avg_rating, driver_id from orders
-group by driver_id
-order by avg_rating desc
-
+group by r.cuisine;
 
 #Which food items are ordeing maximum time
 select f.item_name, sum(o.quantity) as quantity from food_items f
 left join orders_items o on o.item_id = f.item_id
 group by f.item_name
 order by quantity desc;
-
-select * from drivers
-order by rating desc;
