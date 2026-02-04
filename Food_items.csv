@@ -1,0 +1,315 @@
+item_id,restaurant_id,item_name,food_type,price,calories
+101,47,Coconut Ice Cream,vegetarian,NaN,500
+102,93,Vegetable Pakoras,Veg,NaN,1000
+103,24,Wonton soup,non-vegetarian,NaN,400
+104,23,Spring rolls,Non-veg,NaN,500
+105,77,Chinotto,vegetarian,NaN,500
+106,45,Rad Na noodles,non-vegetarian,NaN,1000
+107,62,Lasagna,non-vegetarian,NaN,500
+108,3,Lamb Seekh Kebab,Non-Veg,NaN,500
+109,98,Panzerotti ,veg,NaN,500
+110,65,Crab Rangoon,non-vegetarian,NaN,1000
+111,68,Cannoli,Veg,NaN,900
+112,3,Mooncake,Non-veg,NaN,600
+113,85,Mutton Korma,non-veg,NaN,1000
+114,21,Mulligatawny Soup,non-veg,NaN,300
+115,22,Gai Med Ma Moung,non-veg,NaN,1000
+116,2,Peking duck,Non-veg,NaN,1000
+117,85,Chicken Saagwala,Non-veg,NaN,1500
+118,91,Vermentino,veg,NaN,1200
+119,6,Green curry,veg,NaN,120
+120,59,Spring rolls,Non-veg,NaN,500
+121,66,Fried calamari,non-veg,NaN,400
+122,87,Pla Meuk Pad Prik,non-veg,NaN,1200
+123,37,Kung Pao chicken,Non-veg,NaN,NULL
+124,47,Aloo Paratha,Veg,NaN,600
+125,76,Spaghetti with meatballs,non-veg,NaN,1400
+126,48,Pepperoni pizza,Non-Veg,NaN,1500
+127,37,Peking duck,Non-veg,NaN,1000
+128,72,Vegetable lo mein,Veg,NaN,100
+129,65,Dim sum (various types),Non-veg,NaN,500
+130,40,Pot stickers,Non-veg,NaN,200
+131,100,Mixed Vegetable Salad,veg,NaN,80
+132,51,Bellini,veg,NaN,400
+133,10,Panang Nuea,non-veg,NaN,200
+134,42,Moo shu pork,Non-veg,NaN,NULL
+135,1,Papadum,veg,NaN,1500
+136,77,Chinotto,veg,NaN,1000
+137,49,Peking duck,Non-veg,NaN,NULL
+138,6,Khao Man Gai,non-veg,NaN,1300
+139,11,Fiano di Avellino,veg,NaN,NULL
+140,23,Szechuan chicken,Non-Veg,NaN,1600
+141,85,Garlic Naan,Veg,NaN,700
+142,52,Vegetable lo mein,Veg,NaN,120
+143,2,Korean-style fried chicken,Non-veg,NaN,NULL
+144,71,Butter Chicken,Non-veg,NaN,900
+145,79,Mutton Biryani,non-veg,NaN,800
+146,95,Pad Sator,Non-veg,NaN,600
+147,86,Pla Too,non-veg,NaN,800
+148,68,Affogato,veg,NaN,500
+149,57,Gazzosa,Veg,NaN,800
+150,82,Italian Wedding Soup,non-veg,NaN,500
+151,97,Focaccia,veg,NaN,400
+152,55,Pot stickers,Non-veg,NaN,200
+153,30,Kang Panang,non-veg,NaN,380
+154,55,Shrimp fried rice,Non-veg,NaN,600
+155,48,Shrimp fra diavolo,non-veg,NaN,900
+156,36,Schiacciata,veg,NaN,600
+157,51,Cosmopolitan,veg,NaN,900
+158,71,Chicken Kebab Salad,non-veg,NaN,1000
+159,27,Piadina,non-veg,NaN,500
+160,31,Moo shu pork,Non-veg,NaN,800
+161,78,Korean-style fried chicken,Non-veg,NaN,800
+162,72,Beef and broccoli,Non-veg,NaN,700
+163,49,Shrimp fried rice,Non-veg,NaN,500
+164,50,Lamb Vindaloo,non-veg,NaN,600
+165,100,Samosa Sandwich,Veg,NaN,400
+166,48,Cozze al vino bianco,Non-Veg,NaN,500
+167,18,Crab Rangoon,Non-veg,NaN,1000
+168,93,Peshwari Naan,Veg,NaN,1200
+169,15,Shrimp fried rice,Non-veg,NaN,500
+170,70,Prosciutto pizza,Non-Veg,NaN,1000
+171,38,Kung Pao chicken,Non-veg,NaN,1200
+172,74,Gnocchi,veg,NaN,1100
+173,15,Peking duck,Non-veg,NaN,700
+174,8,Nam Tok,non-veg,NaN,600
+175,15,Pot stickers,Non-veg,NaN,200
+176,68,Bellini,veg,NaN,400
+177,82,Frappato,Non-veg,NaN,500
+178,94,Pappa al Pomodoro,veg,NaN,600
+179,8,Khao Soi Gai,Non-Veg,NaN,400
+180,10,Pad Kra Pao,non-veg,NaN,300
+181,30,Pad Prik King,non-veg,NaN,400
+182,14,Mutton Korma,non-veg,NaN,900
+183,11,Cozze al vino bianco,Non-Veg,NaN,1000
+184,92,Stracciatella alla Romana,non-veg,NaN,1000
+185,73,Keema Naan,Non-Veg,NaN,1600
+186,48,Seafood risotto,Non-Veg,NaN,800
+187,10,Miang Kham,veg,NaN,NULL
+188,59,Egg drop soup,Non-veg,NaN,100
+189,95,Tod Man Pla,non-veg,NaN,800
+190,82,Beef carpaccio,non-veg,NaN,NULL
+191,17,Crab Rangoon,Non-veg,NaN,900
+192,68,Minestrone soup,Non-Veg,NaN,900
+193,27,Calzone,Non-Veg,NaN,600
+194,18,Peking duck,Non-veg,NaN,400
+195,26,Brodetto,non-veg,NaN,NULL
+196,43,Tom Yum fried rice,non-veg,NaN,600
+197,48,Arancini,Veg,NaN,NULL
+198,72,Kung Pao chicken,Non-veg,NaN,1100
+199,40,Kung Pao chicken,Non-veg,NaN,1100
+200,31,Dan dan noodles,Non-veg,NaN,600
+201,56,Aloo Gobi,Veg,NaN,200
+202,69,Spring rolls,Non-veg,NaN,500
+203,64,Poori,Veg,NaN,250
+204,69,Korean-style fried chicken,Non-veg,NaN,1300
+205,56,Chicken Saagwala,Non-veg,NaN,900
+206,41,Acquacotta,Non-Veg,NaN,300
+207,56,Mango Lassi,Veg,NaN,NULL
+208,26,Shrimp scampi,Non-Veg,NaN,400
+209,55,Peking duck,Non-veg,NaN,500
+210,51,Zuppa Toscana,Non-Veg,NaN,600
+211,62,Chicken Francese,Non-Veg,NaN,1000
+212,50,Peas Pulao,Veg,NaN,200
+213,11,Margherita pizza,Veg,NaN,1500
+214,28,Seafood pizza,Non-Veg,NaN,1000
+215,93,Chicken Jalfrezi,Non-veg,NaN,1100
+216,69,Spring rolls,Non-veg,NaN,300
+217,15,Dan dan noodles,Non-veg,NaN,300
+218,46,Italian soda,Veg,NaN,150
+219,68,Cozze al vino bianco,Non-Veg,NaN,900
+220,46,Seafood risotto,Non-Veg,NaN,500
+221,40,Dim sum (various types),Non-veg,NaN,120
+222,47,Naan,Veg,NaN,400
+223,64,Garlic Naan,Veg,NaN,600
+224,56,Kashmiri Naan,Veg,NaN,300
+225,42,Dan dan noodles,Non-veg,NaN,NULL
+226,55,Beef and broccoli,Non-veg,NaN,900
+227,100,Kashmiri Naan,Veg,NaN,300
+228,100,Lamb Biryani,Non-veg,NaN,600
+229,63,Laab Ped,Non-Veg,NaN,500
+230,36,Lamb Biryani,Non-veg,NaN,500
+231,39,Moo shu pork,Non-veg,NaN,800
+232,80,Shrimp scampi,Non-Veg,NaN,400
+233,80,Spuma,Veg,NaN,1200
+234,100,Rogan Josh Kebab,Non-Veg,NaN,800
+235,32,Shrimp Saagwala,Non-Veg,NaN,900
+236,38,Wonton soup,Non-veg,NaN,900
+237,42,Peking duck,Non-veg,NaN,890
+238,15,Dim sum (various types),Non-veg,NaN,600
+239,67,Tom Kha Gai soup,Non-Veg,NaN,1000
+240,9,Chicken Soup,Non-Veg,NaN,NULL
+241,72,Wonton soup,Non-veg,NaN,120
+242,56,Peas Pulao,Veg,NaN,120
+243,26,Barbaresco,Non-Veg,NaN,600
+244,43,Tom Kha Gai soup,Non-Veg,NaN,120
+245,12,Pasta e fagioli soup,Non-Veg,NaN,700
+246,72,Spring rolls,Non-veg,NaN,400
+247,80,Pepperoni pizza,Non-Veg,NaN,1500
+248,27,Rose Shake,Veg,NaN,250
+249,50,Gobi Paratha,Veg,NaN,400
+250,44,Arancini,Veg,NaN,600
+251,74,Aperol spritz,Veg,NaN,300
+252,50,Fish Amritsari,Non-Veg,NaN,400
+253,61,Crying tiger,Non-Veg,NaN,NULL
+254,57,Pasta e fagioli soup,Non-Veg,NaN,800
+255,50,Chana Masala,Veg,NaN,400
+256,70,Manhattan,Non-Veg,NaN,500
+257,69,Vegetable lo mein,Veg,NaN,200
+258,71,Samosas,Veg,NaN,300
+259,59,Peking duck,Non-veg,NaN,400
+260,53,Hot and sour soup,Non-veg,NaN,120
+261,39,Peking duck,Non-veg,NaN,500
+262,50,Lamb Tikka Salad,Non-Veg,NaN,120
+263,33,Laab Ped,Non-Veg,NaN,700
+264,3,Butter Naan,Veg,NaN,800
+265,63,Pad Kra Pao Moo,Non-Veg,NaN,700
+266,79,Lamb Seekh Kebab,Non-Veg,NaN,800
+267,68,Aperol spritz,Veg,NaN,900
+268,96,Szechuan chicken,Non-Veg,NaN,900
+269,29,Lasagna,Non-veg,NaN,500
+270,79,Samosa Sandwich,Veg,NaN,NULL
+271,91,Chicken parmesan,Non-Veg,NaN,1000
+272,7,General Tso's chicken,Non-Veg,NaN,1000
+273,63,Kang Massaman,Non-Veg,NaN,NULL
+274,50,Chicken Curry,Non-veg,NaN,700
+275,45,Khao Soi Gai,Non-Veg,NaN,500
+276,23,Moo shu pork,Non-veg,NaN,500
+277,28,Taurasi,Non-Veg,NaN,700
+278,73,Vegetable Jalfrezi,vegetarian,NaN,400
+279,10,Thot Man Goong,Non-Veg,NaN,400
+280,69,Hot and sour soup,Non-veg,NaN,NULL
+281,90,Szechuan chicken,Non-Veg,NaN,500
+282,29,Chicken piccata,Non-Veg,NaN,1000
+283,64,Butter Chicken,Non-veg,NaN,1000
+284,87,Moo Dad Deaw,Non-Veg,NaN,800
+285,84,Poori,Veg,NaN,300
+286,79,Keema Naan,Non-Veg,NaN,800
+287,74,Valpolicella,Non-Veg,NaN,1000
+288,11,Cannoli,Veg,NaN,1000
+289,72,Crab Rangoon,Non-veg,NaN,1000
+290,24,Beef and broccoli,Non-veg,NaN,800
+291,88,Calzone,Non-Veg,NaN,900
+292,42,Hot and sour soup,Non-veg,NaN,NULL
+293,78,Kung Pao chicken,Non-veg,NaN,1000
+294,46,Minestrone soup,Non-Veg,NaN,700
+295,44,Chicken piccata,Non-Veg,NaN,900
+296,84,Peshwari Naan,Veg,NaN,500
+297,71,Chili Chicken,Non-Veg,NaN,900
+298,64,Peas Pulao,Veg,NaN,120
+299,68,Ribollita,Non-Veg,NaN,400
+300,11,Prosciutto pizza,Non-Veg,NaN,800
+301,20,Americano,Non-veg,NaN,1000
+302,17,Moo shu pork,Non-veg,NaN,800
+303,78,Korean-style fried chicken,Non-veg,NaN,1100
+304,14,Lamb Korma,Non-veg,NaN,1000
+305,90,Hot and sour soup,Non-veg,NaN,120
+306,42,Dan dan noodles,Non-veg,NaN,300
+307,67,Kuay Teow Nam Tok,Non-veg,NaN,400
+308,87,Grilled chicken satay,Non-veg,NaN,700
+309,7,Vegetable lo mein,Veg,NaN,120
+310,71,Lamb Biryani,Non-veg,NaN,600
+311,84,Rasgulla,vegetarian,NaN,300
+312,84,Vegetable Pakoras,Veg,NaN,500
+313,10,Stir-fried basil beef,Non-veg,NaN,600
+314,94,Vegetable risotto,Veg,NaN,400
+315,67,Pad Sator,Non-veg,NaN,600
+316,76,Amarone,Non-veg,NaN,500
+317,71,Samosas,Veg,NaN,700
+318,83,Jalebi,Veg,NaN,800
+319,80,Spuma,Veg,NaN,500
+320,72,Peking duck,Non-veg,NaN,300
+321,79,Palak Paneer,Veg,NaN,600
+322,100,Chicken Curry,Non-veg,NaN,700
+323,23,Crab Rangoon,Non-veg,NaN,800
+324,45,Stir-fried pork belly with basil,Non-veg,NaN,1000
+325,81,Kana Moo Krob,Non-veg,NaN,800
+326,72,Spring rolls,Non-veg,NaN,300
+327,2,Pot stickers,Non-veg,NaN,120
+328,71,Butter Chicken,Non-veg,NaN,1000
+329,66,Parmigiana di melanzane,Non-veg,NaN,600
+330,14,Papaya Salad,veg,NaN,120
+331,63,Pad Thai noodles,Non-veg,NaN,500
+332,54,Moo shu pork,Non-veg,NaN,700
+333,71,Garlic Naan,Veg,NaN,400
+334,71,Aloo Paratha,vegetarian,NaN,NULL
+335,34,Cannoli,Veg,NaN,700
+336,86,Gang Keow Wan Pla,Non-veg,NaN,400
+337,2,Wonton soup,Non-veg,NaN,120
+338,48,Cappuccino,Veg,NaN,100
+339,40,Vegetable lo mein,Veg,NaN,100
+340,5,Hot and sour soup,Non-veg,NaN,100
+341,10,Gang Dang Nuea,Non-veg,NaN,300
+342,59,Hot and sour soup,Non-veg,NaN,100
+343,80,Americano,Non-veg,NaN,100
+344,91,Martini,Non-veg,NaN,400
+345,93,Paneer Tikka,Veg,NaN,400
+346,67,Hoi Tod,Non-veg,NaN,600
+347,19,Wonton soup,Non-veg,NaN,120
+348,45,Pad Kra Pao Talay,Non-veg,NaN,300
+349,93,Lamb Biryani,Non-veg,NaN,500
+350,62,Italian soda,Veg,NaN,100
+351,74,Margarita,Non-veg,NaN,300
+352,100,Palak Paneer,Veg,NaN,400
+353,18,Kung Pao chicken,Non-veg,NaN,1000
+354,34,Lamb Pulao,Non-veg,NaN,400
+355,71,Falooda,Veg,NaN,400
+356,19,Spring rolls,Non-veg,NaN,300
+357,19,Shrimp fried rice,Non-veg,NaN,NULL
+358,31,Crab Rangoon,Non-veg,NaN,400
+359,47,Lamb Soup,Non-veg,NaN,300
+360,69,Beef and broccoli,Non-veg,NaN,400
+361,100,Kachori,Veg,NaN,400
+362,41,Barbera d'Asti,Non-veg,NaN,600
+363,96,Korean-style fried chicken,Non-veg,NaN,700
+364,82,Lasagna,non-vegetarian,NaN,600
+365,84,Pista Kulfi,Veg,NaN,300
+366,84,Chicken Saagwala,Non-veg,NaN,800
+367,7,Shrimp fried rice,Non-veg,NaN,NULL
+368,94,Moscato,Non-veg,NaN,800
+369,70,Eggplant parmesan,Non-veg,NaN,500
+370,2,Moo shu pork,Non-veg,NaN,600
+371,21,Beef Curry,Non-veg,NaN,700
+372,1,Lamb Pulao,Non-veg,NaN,500
+373,82,Prosecco,Non-veg,NaN,500
+374,65,Hot and sour soup,Non-veg,NaN,100
+375,100,Peshwari Naan,Veg,NaN,200
+376,11,Falanghina,Non-veg,NaN,300
+377,25,Spring rolls,Non-veg,NaN,200
+378,37,Hot and sour soup,non-vegetarian,NaN,100
+379,89,Khao Soi noodles,Non-veg,NaN,NULL
+380,2,Dim sum (various types),Non-veg,NaN,500
+381,77,Frappato,Non-veg,NaN,700
+382,47,Poori,Veg,NaN,200
+383,66,Tiramisu,Veg,NaN,500
+384,54,Moo shu pork,Non-veg,NaN,200
+385,25,Hot and sour soup,Non-veg,NaN,100
+386,57,Carbonara,Non-veg,NaN,300
+387,56,Green papaya salad,Non-veg,NaN,100
+388,86,Pla Muek Yang,Non-veg,NaN,100
+389,77,Veal Marsala,Non-veg,NaN,200
+390,56,Lamb Saagwala,non-vegetarian,NaN,NULL
+391,90,Dan dan noodles,Non-veg,NaN,500
+392,74,Hot chocolate,vegetarian,NaN,400
+393,74,Gazzosa,vegetarian,NaN,NULL
+394,43,Gai Yang,Non-veg,NaN,600
+395,53,Egg rolls,Non-veg,NaN,400
+396,83,Chicken Jalfrezi,Non-veg,NaN,800
+397,7,Egg drop soup,Non-veg,NaN,200
+398,64,Tamarind Chutney,vegetarian,NaN,100
+399,88,Special Pasta,Non-veg,NaN,400
+400,64,Fish Tikka Masala,non-vegetarian,NaN,600
+401,4,Pad Sator,Non-veg,NaN,600
+402,4,Kana Moo Krob,Non-veg,NaN,780
+403,4,Nam Tok,Non-veg,NaN,585
+404,75,Kana Moo Krob,Non-veg,NaN,780
+405,75,Tod Man Pla,Non-veg,NaN,800
+406,13,Special Pasta,Non-veg,NaN,410
+407,13,Pepperoni pizza,Non-veg,NaN,1200
+408,16,Papadum,veg,NaN,1000
+409,35,Fiano di Avellino,veg,NaN,400
+410,35,Cozze al vino bianco,Non-veg,NaN,1000
+411,58,Special Pasta,Non-veg,NaN,410
+412,58,Bellini,veg,NaN,400
+413,60,Special Pasta,Non-veg,NaN,410
+414,99,Pepperoni pizza,Non-veg,NaN,1200
